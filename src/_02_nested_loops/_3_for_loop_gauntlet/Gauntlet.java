@@ -35,7 +35,7 @@ System.out.println(i + " is even");
 	System.out.println(i + " is odd");
 }
 }
-for (int i = 0; i < 777; i++) {
+for (int i = 0; i < 778; i++) {
 	
 	if (i % 7 == 0) {
 System.out.println(i);
@@ -52,23 +52,111 @@ System.out.println(" In " +i+ " i was "+(i - 2007));
 // 012012012
 // 000111222
 
-for (int a = 0; a < 3; a++) {
-	for (int e = 0; e < 1; e++) {
-		System.out.println(e);
-	}
-}
-	
+
+
 for (int i = 0; i < 3; i++) {
 	for (int f = 0; f < 3; f++) {
-System.out.println(f);
+System.out.println(i +" "+ f);
 	
 	}
 }
 	
+	    //
+	   //
+	  //
+     //
+/// // //////////////////////////////////////////////////////
+   //
+  //  1  2  3
+ //   4  5  6
+//    7  8  9
+int p = 1;
+for (int i = 0; i < 3; i++) {
+
+	for (int f = 0; f < 3; f++) {
+		
+		System.out.print(p);
+p++;	
+		
+	}
+	System.out.println();  
+}
+
+/////////////////////////////////////////////////////////////
+
+
+for (int i = 0; i < 6; i++) {
+
+	for (int f = 0; f < i+1; f++) {
+
+		System.out.print("*");
 	
-	
+		
+	}
+	System.out.println();
+}
+
+//////////////////////////////////////////////////////////
+
+
+
+p=1;
+for (int i = 0; i < 10; i++) {
+
+	for (int f = 0; f < 10; f++) {
+		
+		System.out.print(p);
+		p++;
+							
+	}
+	System.out.println();  
+}
+//////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	}
 }
+
+
+
+
+
 
 
 
