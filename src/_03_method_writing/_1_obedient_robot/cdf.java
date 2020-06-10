@@ -66,7 +66,7 @@ for (int i = 0; i < 60; i++) {
 	ice.move(5);
 	ice.turn(360/100);
 }
-
+  
 ice.turn(360/1);
 ice.setRandomPenColor();
 ice.move(50);
