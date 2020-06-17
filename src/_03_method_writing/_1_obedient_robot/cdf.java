@@ -1,6 +1,8 @@
 
 package _03_method_writing._1_obedient_robot;
 
+import java.util.Random;
+
 import javax.swing.JOptionPane;
 
 import org.jointheleague.graphical.robot.Robot;
@@ -20,8 +22,13 @@ public static void main(String[] args) {
 		drawSquare();
 		drawTriangle();
 		drawCirclHack();
-		 JOptionPane.showMessageDialog(null,"ERROR CODE 1462");
-		 JOptionPane.showMessageDialog(null,"ERROR CODE 5903");
+		Random rand = new Random() ;
+		int random = rand.nextInt(9999-1000)+1000;
+		
+		 JOptionPane.showMessageDialog(null,"ERROR CODE "+ random);
+		 Random ran = new Random() ;
+			int rando = ran.nextInt(9999-1000)+1000;
+		 JOptionPane.showMessageDialog(null,"ERROR CODE "+rando);
 		for (int i = 5; i > 0; i--) {
 			 JOptionPane.showMessageDialog(null,"SELF DESTROCTION IN "+ i);
 		}
@@ -74,3 +81,15 @@ ice.move(50);
 ice.move(50);
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
