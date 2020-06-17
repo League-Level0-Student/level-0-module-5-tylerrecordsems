@@ -11,7 +11,7 @@ public abstract class HappyPet {
 	public static void main(String[] args) {
 		// 1. Ask the user what kind of pet they want to buy, and store their answer in a variable
 String f = JOptionPane.showInputDialog(null, "What kind of pet do you want?");
-		// 7. REPEAT steps 3 - 6 enough times to make your pet happy!
+		// 7. R.E.P.E.A.T steps 3 - 6 enough times to make your pet happy!
 while(happinessLevel<16){
 			
 		
@@ -57,3 +57,20 @@ JOptionPane.showMessageDialog(null, "Your " + f + " likes you +3 happiness more"
 
 
 }
+//
+
+
+
+//
+   //
+  //
+ //
+//
+
+
+
+
+
+
+
+
