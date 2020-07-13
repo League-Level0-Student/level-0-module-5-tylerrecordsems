@@ -7,11 +7,11 @@ import javax.swing.JOptionPane;
 public class SkillPractice {
 public static void main(String[] args) {
 	SkillPractice skills = new SkillPractice();
-   // skills.skill1();
-    //skills.skill2();
-    //skills.skill3();
-    skills.skill4();
-    //skills.skill5();
+  skills.skill1();
+    skills.skill2();
+     skills.skill3();
+   skills.skill4();
+    skills.skill5();
 }
 
 void skill1() {
@@ -36,25 +36,37 @@ void skill2() {
 for (int i = 1; i < 31; i+=3) {
 	System.out.println(i);
 }
-}
+}    
 void skill3() {
 	Random num=new Random();
 	int Gummy= num.nextInt(21);
 System.out.println(Gummy);
 int Slime=num.nextInt(10);	
 System.out.println(Slime);
-JOptionPane.showMessageDialog(null, "The difference between the two numbers are"+(Gummy - Slime ));
+JOptionPane.showMessageDialog(null, "The difference between the two numbers are "+(Gummy - Slime ));
 }
 void skill4() {
 String f=	JOptionPane.showInputDialog("Which city do you live in? (No caps!)");
-if(f=="san diego") {
-	JOptionPane.showInputDialog("You live in America's Finest City ");
+if(f.equals("san diego")) {
+	JOptionPane.showMessageDialog(null, "You live in America's Finest City ");
 }else {
-	JOptionPane.showInputDialog("Move to San Diego");
-}
-}
+	 JOptionPane.showMessageDialog(null,"Move to San Diego");
 
 
+int cars =4;{
+if (cars>=1) {
+	JOptionPane.showMessageDialog(null, "There are "+ cars*4 +" Wheels");
+}
+}
+}
+}
+void skill5() { // In a pop-up, ask the user for the name of their school
+	String school=	JOptionPane.showInputDialog("What is the name of your school");
+
+
+	// In another pop-up, tell the user, that their school is a fantastic school. // You must include the name of the school in the message. 
+JOptionPane.showMessageDialog(null,school + " is a fantastic school");
+}
 }
 
 	
